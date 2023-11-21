@@ -35,4 +35,3 @@ def main(page: ft.page):
 ft.app(target=main)
 
 
-print('Hola mundo')
