@@ -24,7 +24,7 @@ def main(page: ft.page):
         page.update()
 
 
-    texto= ft.TextField(label="Ingresa el texto a convertir")
+    texto= ft.TextField(label="Ingresa el texto a convertir :)")
     boton= ft.ElevatedButton("Generar")
     imagen_col = ft.Column(expand=1, wrap=False, scroll='AUTO')
     boton.on_click=btn_click
